@@ -1,5 +1,5 @@
 import React from "react";
-import { CopyrightIcon, Github, Linkedin, Twitter } from "lucide-react";
+import { CopyrightIcon, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Copyright Section */}
         <div className="flex items-center text-sm">
           <CopyrightIcon className="mr-2 h-5 w-5 text-gray-400" />
-          <span>{new Date().getFullYear()} Made my ayush</span>
+          <span>{new Date().getFullYear()} Designed and Built with 💖 by Ayush Kumar Dubey</span>
         </div>
 
        
@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex space-x-4">
           <a
-            href="https://github.com/mockmate"
+            href="http://github.com/ayushdubey001"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://linkedin.com/company/mockmate"
+            href="https://www.linkedin.com/in/ayush-kumar-dubey-4a79342b9/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition-colors"
@@ -34,13 +34,13 @@ const Footer = () => {
             <Linkedin className="h-6 w-6" />
           </a>
           <a
-            href="https://twitter.com/mockmate"
+            href="https://www.instagram.com/robin_hood_2201"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition-colors"
             aria-label="Twitter"
           >
-            <Twitter className="h-6 w-6" />
+            <Instagram className="h-6 w-6" />
           </a>
         </div>
       </div>
